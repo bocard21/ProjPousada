@@ -1,9 +1,30 @@
 .footer {
-  background-color: var(--primary-color);
+  background-color: #800080; 
   color: white;
+  padding: 20px 0; 
   text-align: center;
-  padding: 10px;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  width: 100%;
+  width: 100vw; 
+  height: auto; 
+  box-sizing: border-box; 
+  left: 100; 
+  right: 0; 
+  }
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; 
+}
+
+.footer-icons img {
+  margin: 0 10px;
+  width: 24px; 
+  height: 24px;
+}
+
+.footer p {
+  margin: 5px 0; 
+  font-size: 14px; 
 }

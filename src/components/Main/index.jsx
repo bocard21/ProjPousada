@@ -5,7 +5,8 @@ const Main = () => (
   <main className="main">
     <div className="container">
       <h1>Bem-vindo à Pousada Quinta do Ypuã</h1>
-      <p>Desfrute de momentos incríveis em nossa pousada, localizada em Laguna - SC.</p>
+      <p>Desfrute de momentos incríveis em nossa pousada.</p>
+      <p>Localizada em Laguna - SC.</p>
       <div className="contact">
         <div>
           <h2>Entre em contato conosco</h2>

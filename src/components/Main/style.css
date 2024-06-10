@@ -1,7 +1,7 @@
 .main {
-  flex: 1;
   padding: 20px;
-  background-color: var(--background-color);
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -10,8 +10,15 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   text-align: center;
+
+h1 {
+  color: #800080; /* Cor roxa */
+  font-size: 2em;
+  margin-bottom: 20px;            
 }
 
+
+  
 .contact {
   display: flex;
   justify-content: space-around;
@@ -27,4 +34,5 @@
   height: 20px;
   margin-right: 10px;
   vertical-align: middle;
+}
 }
