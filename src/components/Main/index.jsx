@@ -1,19 +1,21 @@
 import React from 'react';
 import './style.css';
 
-const Main = () => {
-  return (
-    <main className="main">
+const Main = () => (
+  <main className="main">
+    <div className="container">
       <h1>Bem-vindo à Pousada Quinta do Ypuã</h1>
       <p>Desfrute de momentos incríveis em nossa pousada, localizada em Laguna - SC.</p>
-      <p>Entre em contato conosco para fazer sua reserva ou obter mais informações:</p>
-      <ul>
-        <li>Telefone: (48) 99940-9732</li>
-        <li>Email: pousadaquintadoypua@gmail.com</li>
-        <li>Endereço: Estrada Ipua, nº 6 Laguna - SC | 88790-000</li>
-      </ul>
-    </main>
-  );
-};
+      <div className="contact">
+        <div>
+          <h2>Entre em contato conosco</h2>
+          <p><strong>Telefone:</strong> (48) 99940-9732</p>
+          <p><strong>Email:</strong> pousadaquintadoypua@gmail.com</p>
+          <p><strong>Endereço:</strong> Estrada Ipua, nº 6 Laguna - SC | 88790-000</p>
+        </div>
+      </div>
+    </div>
+  </main>
+);
 
 export default Main;

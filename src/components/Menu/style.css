@@ -1,15 +1,18 @@
-
 .menu {
-  background-color: #3f51b5;
+  background-color: var(--secondary-color);
   padding: 12px;
 }
 
 .menu ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 0;
   margin: 0;
+}
+
+.menu ul li {
+  margin: 0 15px;
 }
 
 .menu a {
@@ -17,22 +20,36 @@
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 5px;
-  transition: background-color 0.3s, transform 0.3s; /* Added transform property */
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .menu a:hover,
 .menu a.active {
-  background-color: #303f9f;
-  transform: scale(1.1); /* Added scale transform on hover */
+  background-color: #550000; /* Bordô mais escuro */
+  transform: scale(1.1);
+}
+
+.menu .reserva-button {
+  background-color: white;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu .reserva-button:hover {
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 @media (max-width: 768px) {
   .menu ul {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
-  .menu li {
-    margin: 5px 0;
+  .menu ul li {
+    margin: 10px 0;
   }
 }

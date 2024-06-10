@@ -1,12 +1,10 @@
 import React from 'react';
 import './style.css';
 
-const Header = () => {
-  return (
-    <header className="header">
-      <img src="imagens/logotipo.png" alt="Pousada Quinta do Ypuã" id="imgLogotipo" />
-    </header>
-  );
-};
+const Header = () => (
+  <header className="header">
+    <img src="logo.png" alt="Pousada Quinta do Ypuã" />
+  </header>
+);
 
 export default Header;
